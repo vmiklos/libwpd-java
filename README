@@ -1,0 +1,57 @@
+= Java bindings for libwpd
+Miklos Vajna <vmiklos-at-frugalware-dot-org>
+
+NOTE: This page is here only for historical reasons. You probably want
+to have a look at
+link:http://libwpd.cvs.sourceforge.net/viewvc/libwpd/libwpd2-bindings/[the
+opened code].
+
+== What's libwpd-java?
+
+libwpd-java is an attempt to work with
+link:http://libwpd.sourceforge.net/[libwpd] in Java.
+
+== Why is it good?
+
+- If you have a Java application and you want to work with WordPerfect
+  (tm) documents, you'll find it useful.
+
+- It binds libwpd's custom types to native Java types, like
+  `WPXPropertyList` to `java.util.LinkedHashMap<String,String>`.
+
+== How does it work?
+
+The code at the moment is not yet public. Here are my plans:
+
+- I wait for somebody who really needs this.
+
+- I want to get paid for my work. If you, or your company are interested
+  in funding, please contact me.
+
+- To be legal and respect GPL, I want to publish the work under
+  GPL as well, and submit the code for inclusion in the libwpd project.
+
+== Example
+
+As an example, you can see how the Java version of the original wpd2raw
+C++ program looks like, using libwpd-java:
+
+- `main.java`:
+
+[java]
+source~~~~
+include::main.java[]
+source~~~~
+
+- `RawListenerImpl.java`
+
+[java]
+source~~~~
+include::RawListenerImpl.java[]
+source~~~~
+
+Enjoy!
+
+Back to my link:/projects[projects page].
+
+// vim: ft=asciidoc
