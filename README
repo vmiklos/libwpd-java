@@ -3,7 +3,7 @@ Miklos Vajna <vmiklos-at-frugalware-dot-org>
 
 NOTE: This page is here only for historical reasons. You probably want
 to have a look at
-link:http://libwpd.cvs.sourceforge.net/viewvc/libwpd/libwpd2-bindings/[the
+http://libwpd.git.sourceforge.net/git/gitweb.cgi?p=libwpd/libwpd-bindings;a=summary[the
 opened code].
 
 == What's libwpd-java?
@@ -52,6 +52,6 @@ source~~~~
 
 Enjoy!
 
-Back to my link:/projects[projects page].
+Back to https://github.com/vmiklos[GitHub].
 
 // vim: ft=asciidoc
